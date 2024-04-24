@@ -3,6 +3,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[scripts]
+lint = "pylint --rcfile=.pylintrc **/*.py"
+
 [packages]
 flask = "==2.3.0"
 qrcode = "==7.4.2"
@@ -11,6 +14,7 @@ flask-socketio = "==5.3.6"
 flask-sqlalchemy = "==3.1.1"
 
 [dev-packages]
+pylint = "*"
 
 [requires]
 python_version = "3.11"
