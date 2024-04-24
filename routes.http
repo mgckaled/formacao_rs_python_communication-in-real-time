@@ -1,16 +1,16 @@
 # variáveis
 @base_url = http://127.0.0.1:5000
-### create payment
+###
 POST {{base_url}}/payments/pix
 Content-Type: application/json
 
 {
-  "value": 500
+  "value": 100
 }
 
 HTTP/1.1 200  - OK
 server: Werkzeug/3.0.2 Python/3.11.5
-date: Wed, 24 Apr 2024 07:21:01 GMT
+date: Wed, 24 Apr 2024 17:35:45 GMT
 content-type: application/json
 content-length: 225
 connection: close
