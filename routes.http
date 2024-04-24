@@ -5,12 +5,12 @@ POST {{base_url}}/payments/pix
 Content-Type: application/json
 
 {
-  "value": 100
+  "value": 500
 }
 
-HTTP/1.1 200  - OK
+HTTP/1.1 500  - INTERNAL SERVER ERROR
 server: Werkzeug/3.0.2 Python/3.11.5
-date: Wed, 24 Apr 2024 17:35:45 GMT
-content-type: application/json
-content-length: 225
+date: Wed, 24 Apr 2024 18:11:47 GMT
+content-type: text/html; charset=utf-8
+content-length: 20203
 connection: close

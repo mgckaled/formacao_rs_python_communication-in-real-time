@@ -10,7 +10,7 @@ class Pix:
 
     def create_payment(self):
         # criar pagamento na instituição financeira
-        bank_payment_id = uuid.uuid4()
+        bank_payment_id = str(uuid.uuid4())
 
         # copia e cola
         hash_payment = f'hash_payment_{bank_payment_id}'
@@ -19,7 +19,7 @@ class Pix:
         img = qrcode.make(hash_payment)
 
         # definir caminho das imagens e sua extensão
-        img.save(f"static/img/qr_code_payment_{bank_payment_id}.png")
+        img.save(f"src/static/img/qr_code_payment_{bank_payment_id}.png")
 
         return {
             "bank_payment_id":  bank_payment_id,
