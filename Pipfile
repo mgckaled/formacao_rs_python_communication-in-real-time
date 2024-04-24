@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [scripts]
+dev = "python src/app.py"
 lint = "pylint --rcfile=.pylintrc **/*.py"
 
 [packages]

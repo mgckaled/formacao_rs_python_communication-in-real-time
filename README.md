@@ -45,7 +45,6 @@ Notificações em tempo real são importantes para enviar informações imediata
 
 - [`flask`](https://flask.palletsprojects.com/en/3.0.x/)
 
-
 ## Como clonar o projeto?
 
 1. Certifique-se de que está usando o `pyenv` e o `pipenv` para gerenciar as dependências do projeto. Veja como instalar e configurar clicando nos respectivos links do tópico [Gerenciadores de Ambiente Virtual](#gerenciadores-de-ambiente-virtual).
